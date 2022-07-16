@@ -1,0 +1,21 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayaprakashajaishee/News-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayaprakashajaishee/News-App/issues"
+  },
+  "homepage": "https://github.com/jayaprakashajaishee/News-App#readme"
+}
