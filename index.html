@@ -10,15 +10,15 @@
   </head>
   <body>
     <div id="root">
+      <!--navbar start-->
+      <div class="navbar">
+        <h1 class="navbarTitle">Daily-News</h1>
+      </div>
+      <!--navbar start-->
       <!-- grid-component start -->
       <div class="grid">
         <!-- sources start -->
         <div class="grid-item source-item">
-          <!-- source title start -->
-          <div class="title">
-            <h1>Sources</h1>
-          </div>
-          <!-- source title end -->
           <!-- source list start -->
           <div id="sourceList" class="list">
             <!-- <div class="source card">source</div> -->
@@ -26,8 +26,52 @@
           <!-- source list end -->
         </div>
         <!-- sources end -->
-        <div class="grid-item headline-item">Headlines</div>
-        <div class="grid-item news-item">News</div>
+        <!--headline start-->
+        <div class="grid-item headline-item">
+          <!--headline title start-->
+          <div class="title" id="headlineSource">
+            <h2>Headlines</h2>
+          </div>
+          <!--headline list start-->
+          <div id="headlineList" class="list">
+            <!--headline card start-->
+            <!-- <div class="headline card">
+              <img
+                class="headlineImage"
+                src="https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg"
+              />
+              <div class="headlineTitle">
+                <p>US-Best-Sellers-Books-PW</p>
+              </div>
+            </div> -->
+            <!--headline card end-->
+          </div>
+          <!--headline list end-->
+          <!--headline title end-->
+        </div>
+        <!--headline end-->
+        <!--news list start-->
+        <div class="grid-item news-item">
+          <!--news list start-->
+          <div id="news" class="list">
+            <!-- <div class="newsTitle">
+              <h2>WNBA's Griner back in Russian court as trial continues</h2>
+            </div>
+            <h3 class="newsContent">2022-07-15T09:15:42Z</h3> -->
+            <!--image div start-->
+            <!-- <div class="newsFlex">
+              <img src="https://s.abcnews.com/images/International/WireAP_22ba45020a014a3b9cabf26e3cd60200_16x9_992.jpg" class="newsImage">
+            </div> -->
+            <!--image div end-->
+            <!--news content start  -->
+            <!-- 
+              <p class="newsContent">Description: American basketball star Brittney Griner has faced a Russian court again as her drug possession trial resumed after she pleaded guilty to the charges</p>
+              <p class="newsContent">KHIMKI, Russia -- American basketball star Brittney Griner faced a Russian court again on Friday as her drug possession trial resumed after she pleaded guilty to the charges. \r\nGriner's defense lawye… [+3144 chars]</p>
+              <a class="newsLink" href="https://abcnews.go.com/International/wireStory/wnbas-griner-back-russian-court-trial-continues-86870019">Read full article</a> -->
+            <!--news content end  -->
+          </div>
+          <!--news list end-->
+        </div>
       </div>
       <!-- grid-component end -->
     </div>
